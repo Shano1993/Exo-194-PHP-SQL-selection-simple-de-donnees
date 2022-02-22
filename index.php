@@ -81,7 +81,7 @@ try {
 
     if ($state3) {
         foreach ($stmt3->fetchAll() as $user) { ?>
-            <div id="desc">
+            <div id="name">
                 <p><?="Nom : " . $user['nom'] ?></p>
                 <p><?="Prénom : " . $user['prenom'] ?></p>
             </div> <?php

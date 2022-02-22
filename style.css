@@ -17,3 +17,13 @@
     align-items: center;
     background-color: #ff8484;
 }
+
+#name {
+    width: 20%;
+    margin: 1rem auto;
+    border: 0.1rem solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(165, 172, 255, 0.53);
+}
